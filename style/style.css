@@ -39,7 +39,7 @@ body {
     flex-direction: column;
     justify-content: center;
     height: 500px;
-    background: linear-gradient(rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.219) 100%), url('marico.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.219) 100%), url('https://vigilianerd.com.br/wp-content/uploads/2017/12/Your-Name-3-768x432.jpg');
     background-size: cover;
     background-position:bottom;
     align-items: flex-start;
