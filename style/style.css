@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(23, 2, 29);
+    color: white;
+}
+.container-cabeçalho {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 35px;
+    align-items: center;
+}
+.logo {
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+    font-size: 60px;
+    color: rgb(226, 183, 228);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lista-itens-navbar {
+    display: flex;
+    list-style: none;
+}
+.lista-itens-navbar a {
+    color: rgb(206, 206, 206);
+    margin-right: 15px;
+    text-decoration: none;
+}
+.lista-itens-navbar a:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 10px white;
+    transition: 0.2s;
+}
+.tela-principal {
+    padding: 30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.205), rgba(0, 0, 0, 0.219) 100%), url('/img/marico.jpg');
+    background-size: cover;
+    background-position:bottom;
+    align-items: flex-start;
+}
+.container-tela-principal {
+    margin-bottom: 50px;
+    width:50%;
+    text-shadow: 5px 5px 10px black;
+    font: normal 10pt arial;
+}
+.titulo {
+    margin-top: 40%;
+    margin-bottom: 15px;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.div-botoes {
+    margin-bottom: 80px;
+}
+.botao {
+    background-color: rgba(240, 248, 255, 0);
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    border-color: rgba(255, 255, 255, 0.164);
+    border-radius: 30px;
+    padding: 20px;
+    margin-right: 20px;
+}
+.botao:hover {
+    background-color: rgba(92, 32, 117, 0.788);
+    transition: 0.3s;
+}
+.box-anime {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.box-anime:hover {
+    box-shadow: 0px 0px 10px white 
+}
+.carrosel-animes {
+    margin-top: 20px;
+}
+.topicos {
+    text-align: center;
+    width: 98%;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(37, 7, 46);
+    margin-top: 10px;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 5px 5px 10px black;
+    margin-left: 10px;
+}
+.topicos:hover {
+    text-shadow: 0px 0px 8px white;
+    transition: 0.2s;
+}
+.imagem-side-logo {
+    margin-right: 150px;
+    height: 90px;
+    
+}
+/*Responsividade do site com midia query*/
+@media screen and (max-width:700px){
+    .container-cabeçalho {
+        display: flex;
+        flex-direction: column;
+    }
+    .imagem-side-logo {
+        margin-right: 0;
+    }
+}
